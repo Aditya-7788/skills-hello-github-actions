@@ -7,3 +7,11 @@ on:
 # Allow the workflow to write comments on PRs
 permissions:
   pull-requests: write
+# Jobs section: list of jobs in this workflow
+jobs:
+  # Job id is "welcome"
+  welcome:
+    # Display name of the job
+    name: Post welcome comment
+    # Run this job on the latest Ubuntu runner
+    runs-on: ubuntu-latest
