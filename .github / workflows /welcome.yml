@@ -1,4 +1,3 @@
-
 # Workflow name shown in Actions tab
 name: Post welcome comment
 # Run when a pull request is opened
@@ -8,3 +7,4 @@ on:
 # Allow the workflow to write comments on PRs
 permissions:
   pull-requests: write
+# retrigger
